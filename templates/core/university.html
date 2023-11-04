@@ -1,0 +1,174 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div id="wrapper">
+      <section class="parallax academy-section global-section">
+        <div class="overlay"></div>
+        <div class="container relative wow fadeInDown">
+          <h1>
+            <span data-i18n="universityHeading">Learning Today,</span
+            ><br /><span data-i18n="universityHeading1">Leading Tomorrow</span>
+          </h1>
+          <h2 data-i18n="universityHeading2">
+            We are team of talented designers making websites with Bootstrap
+          </h2>
+          <a
+            href="page-contact.html"
+            data-i18n="contactUs"
+            class="btn-get-started"
+            >Contact Us</a
+          >
+        </div>
+        <!-- end container -->
+      </section>
+      <!-- end section -->
+
+      <!-----------------team members section-------------------->
+      <section id="about" class="about">
+        <div class="tp-event__shape">
+          <div class="event-1">
+            <img src="{% static 'images/event-line-1.png' %}" alt="" />
+          </div>
+          <div class="event-2">
+            <img src="{% static 'images/event-circle.png' %}" alt="" />
+          </div>
+        </div>
+
+        <div class="container train-content-Section wow fadeInUp">
+          <div class="row">
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <h3 data-i18n="trainingContent">What Is Training Content?</h3>
+              <p class="fst-italic" data-i18n="trainingContentpara1">
+                The Foundation implements projects and programs in areas such as education, health, environment, human rights, economic and cultural empowerment. The Foundation also contributes to the resolution of disputes and disagreements in peaceful and constructive ways through international arbitration, which is a legal process carried out by a neutral third party who issues a binding decision to the disputing parties. Fields of work of the Foundation is based on the following factors:
+              </p>
+              <ul>
+                <li>
+                  <i class="fa fa-check-circle"></i>
+                  <span data-i18n="trainingContentpara2"
+                    >Protect and preserve the environment.</span
+                  >
+                </li>
+                <li>
+                  <i class="fa fa-check-circle"></i>
+                  <span data-i18n="trainingContentpara3"
+                    >Cultural, scientific and religious services.</span
+                  >
+                </li>
+                <li>
+                  <i class="fa fa-check-circle"></i>
+                  <span data-i18n="trainingContentpara4"
+                    >Care for deaf groups, disabled and elderly.</span
+                  >
+                </li>
+              </ul>
+              <p data-i18n="trainingContentpara5">
+                Fields of work of the Foundation can also include orientation, onboarding, internal and outsourced training, technical and managerial skills training and more.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="{% static 'images/20190422strada.jpg' %}"
+                class="img-responsive"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--------------counts section--------------------->
+      <section id="counts" class="counts section-bg">
+        <div class="container">
+          <div class="row counters counter">
+            <div class="col-lg-3 col-sm-6 text-center">
+              <img
+                src="{% static 'images/staff-icon-png-15-removebg-preview.png' %}"
+                alt="error404"
+                class="CountersImage1"
+              />
+              <span class="counting" data-count="900">0</span>
+              <p data-i18n="universityHeading3">Staff Members</p>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 text-center">
+              <img
+                class="CountersImage2"
+                src="{% static 'images/student-icon-website-design-desktop-envelopment-development-premium-pack-student-vector-flat-color-icon-167309055-removebg-preview.png' %}"
+              />
+              <span class="counting" data-count="800">0</span>
+              <p data-i18n="universityHeading4">University Students</p>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 text-center">
+              <img
+                src="{% static 'images/2037690-removebg-preview.png' %}"
+                alt="error404"
+                class="CountersImage3"
+              />
+              <span class="counting" data-count="400">0</span>
+              <p data-i18n="universityHeading5">University Events</p>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 text-center">
+              <img
+                src="{% static 'images/1995574 (1).png' %}"
+                alt="error404"
+                class="CountersImage4"
+              />
+              <span class="counting" data-count="1500">0</span>
+              <p data-i18n="universityHeading6">Trainers</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!---------------specialization----------------------->
+      <section id="specialization-content" class="specialization-content">
+        <div class="container wow fadeInUp">
+          <div class="section-title">
+            <h2 data-i18n="universityHeading7">Our Specialization</h2>
+            <p data-i18n="universityHeading8">
+              Know more about our Specializations
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4">
+              <a href="{% url 'specialization' %}">
+                <div class="box wow zoomIn">
+                  <span>01</span>
+                  <h4>BIS</h4>
+                  <p data-i18n="universityHeading9">
+                    Business Information Systems
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-4">
+              <a href="{% url 'specialization' %}">
+                <div class="box wow zoomIn">
+                  <span>02</span>
+                  <h4>FMI</h4>
+                  <p data-i18n="universityHeading10">
+                    Financial Markets &amp; Institutions
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-4">
+              <a href="{% url 'specialization' %}">
+                <div class="box wow zoomIn">
+                  <span>03</span>
+                  <h4>English section</h4>
+                  <p data-i18n="universityHeading11">
+                    Faculty of Commarce English Section
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+{% endblock %}

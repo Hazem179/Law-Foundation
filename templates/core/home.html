@@ -1,0 +1,968 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<section id="home" class="background-section global-section">
+    <div class="overlay"></div>
+    <div class="home-text-wrapper relative container">
+      <div class="home-message">
+        <p data-i18n="homeheading1">Learning Management System</p>
+        <small data-i18n="homepara1">Edulogy is the ideal choice for your organization, your business
+          and your online education system. Create your online course now
+          with unlimited page templates, color options, and menu
+          features.</small>
+        <div class="btn-wrapper">
+          <div class="text-center">
+            <a href="{% url 'about' %}" class="btn btn-primary wow slideInLeft" data-i18n="homebutton2">Read More</a>
+            &nbsp;&nbsp;&nbsp;<a href="{% url 'academy' %}" class="btn btn-default wow slideInRight"
+              data-i18n="homebutton1">Activities</a>
+          </div>
+        </div>
+        <!-- end row -->
+      </div>
+    </div>
+    <div class="slider-bottom">
+      <span data-i18n="homeExplore">Explore </span>
+      <svg class="arrows">
+        <path class="a1" d="M0 0 L30 32 L60 0"></path>
+        <path class="a2" d="M0 20 L30 52 L60 20"></path>
+        <path class="a3" d="M0 40 L30 72 L60 40"></path>
+      </svg>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <div class="container">
+      <div class="row">
+        <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
+          <div class="inner-column">
+            <div class="sec-title">
+              <h2 data-i18n="homeheading2">Al-Juhany Foundation: We Stand Together, For A Better Society</h2>
+            </div>
+            <div class="text" data-i18n="homepara2">
+              "Al-Juhani Foundation for International Arbitration and Social and Sustainable Development is a non-profit organization that aims to promote social justice and sustainable development in local, regional and international communities. The Foundation was established in 2023 at the initiative of Mr. Ahmed Fouad Al-Juhani, one of the most prominent arbitration experts in the Arab region, and includes in its membership a group of arbitrators, mediators and researchers in the fields of arbitration and development. The Foundation implements projects and programs in areas such as education, health, environment, human rights, economic and cultural empowerment.",
+            </div>
+            <div class="text" data-i18n="homepara3">
+              The Foundation contributes to the resolution of disputes and disputes in peaceful and constructive ways through international arbitration, which is a legal process carried out by a neutral third party who issues a binding decision to the disputing parties. International arbitration is an effective, expeditious and fair means of settling commercial, investment, diplomatic or humanitarian disputes.
+            </div>
+            <div class="btn-box">
+              <a href="{% url 'contact' %}" class="theme-btn btn-style-one" data-i18n="contactUs">Contact Us</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image Column -->
+        <div class="image-column col-lg-6 col-md-12 col-sm-12">
+          <div class="inner-column wow fadeInLeft">
+            <div class="author-desc">
+              <h2 data-i18n="homesubtitle1">Al-Juhany</h2>
+              <span data-i18n="homesubtitle2">Foundation</span>
+            </div>
+            <figure class="image-1">
+              <a href="#" class="lightbox-image" data-fancybox="images"><img title="education"
+                  src="static/images/front-view-male-student-wearing-.jpg" alt="" class="img-responsive" /></a>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section sharing-styling">
+    <div class="container">
+      <div class="section-title text-center">
+        <h3 data-i18n="homeheading3">Recent Courses</h3>
+        <p data-i18n="homepara4">
+          A large variety of the most efficient and quality courses and disciplines.
+
+        </p>
+      </div>
+      <!-- end title -->
+
+      <div id="owl-01" class="owl-carousel owl-theme owl-theme-01" dir="ltr">
+        <div class="caro-item">
+          <div class="course-box">
+            <div class="image-wrap entry">
+              <img src="static/images/Business-Social-Media-Banner-06.jpg" alt="" class="img-responsive" />
+              <div class="magnifier">
+                <a href="{% url 'contact' %}" title=""></a>
+              </div>
+            </div>
+            <!-- end image-wrap -->
+            <div class="course-details">
+              <h4>
+                <small data-i18n="homesubtitle3">International Commercial Arbitration</small>
+                <a href="#" title="" data-i18n="homesubtitle4">International Commercial Arbitration Course 2023</a>
+              </h4>
+              <p data-i18n="homesubtitle5">
+                Fusce interdum, elit sit amet vehicula malesuada, eros
+                libero elementum orci.
+              </p>
+            </div>
+            <!-- end details -->
+            <div class="course-footer clearfix">
+              <div class="pull-left">
+                <ul class="list-inline">
+                  <li>
+                    <a href="#"><i class="fa fa-user"></i> <span>21</span></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-clock-o"></i> <span data-i18n="homesubtitle7"> 60 Min.</span></a>
+                  </li>
+                </ul>
+              </div>
+              <!-- end left -->
+
+              <div class="pull-right">
+                <ul class="list-inline">
+                  <li><a href="#">Free</a></li>
+                </ul>
+              </div>
+              <!-- end left -->
+            </div>
+            <!-- end footer -->
+          </div>
+          <!-- end box -->
+        </div>
+        <!-- end col -->
+
+        <div class="caro-item">
+          <div class="course-box">
+            <div class="image-wrap entry">
+              <img src="static/images/Business-Social-Media-Banner-06.jpg" alt="" class="img-responsive" />
+              <div class="magnifier">
+                <a href="{% url 'contact' %}" title=""></a>
+              </div>
+            </div>
+            <!-- end image-wrap -->
+            <div class="course-details">
+              <h4>
+                <small data-i18n="homesubtitle9">Communications organization</small>
+                <a href="#" data-i18n="homesubtitle10" title="">Communications organization Course 2023</a>
+              </h4>
+              <p data-i18n="homesubtitle11">
+                Fusce interdum, elit sit amet vehicula malesuada, eros
+                libero elementum orci.
+              </p>
+            </div>
+            <!-- end details -->
+            <div class="course-footer clearfix">
+              <div class="pull-left">
+                <ul class="list-inline">
+                  <li>
+                    <a href="#"><i class="fa fa-user"></i> <span >21</span></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-clock-o"></i> <span data-i18n="homesubtitle13">60 Min.</span></a>
+                  </li>
+                </ul>
+              </div>
+              <!-- end left -->
+
+              <div class="pull-right">
+                <ul class="list-inline">
+                  <li><a href="#" >Free</a></li>
+                </ul>
+              </div>
+              <!-- end left -->
+            </div>
+            <!-- end footer -->
+          </div>
+          <!-- end box -->
+        </div>
+        <!-- end col -->
+
+        <div class="caro-item">
+          <div class="course-box">
+            <div class="image-wrap entry">
+              <img src="static/images/Business-Social-Media-Banner-06.jpg" alt="" class="img-responsive" />
+              <div class="magnifier">
+                <a href="{% url 'contact' %}" title=""></a>
+              </div>
+            </div>
+            <!-- end image-wrap -->
+            <div class="course-details">
+              <h4>
+                <small data-i18n="homesubtitle15">Human resources management </small>
+                <a href="#" title="" data-i18n="homesubtitle16">Human resources management Course 2023</a>
+              </h4>
+              <p data-i18n="homesubtitle17">
+                Fusce interdum, elit sit amet vehicula malesuada, eros
+                libero elementum orci.
+              </p>
+            </div>
+            <!-- end details -->
+            <div class="course-footer clearfix">
+              <div class="pull-left">
+                <ul class="list-inline">
+                  <li>
+                    <a href="#"><i class="fa fa-user"></i> <span >21</span></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-clock-o"></i> <span data-i18n="homesubtitle19">60 Min.</span></a>
+                  </li>
+                </ul>
+              </div>
+              <!-- end left -->
+
+              <div class="pull-right">
+                <ul class="list-inline">
+                  <li><a href="#" >Free</a></li>
+                </ul>
+              </div>
+              <!-- end left -->
+            </div>
+            <!-- end footer -->
+          </div>
+          <!-- end box -->
+        </div>
+        <!-- end col -->
+
+        <div class="caro-item">
+          <div class="course-box">
+            <div class="image-wrap entry">
+              <img src="static/images/Business-Social-Media-Banner-06.jpg" alt="" class="img-responsive" />
+              <div class="magnifier">
+                <a href="{% url 'contact' %}" title=""></a>
+              </div>
+            </div>
+            <!-- end image-wrap -->
+            <div class="course-details">
+              <h4>
+                <small data-i18n="homesubtitle21">Media and journalism </small>
+                <a href="#" title="" data-i18n="homesubtitle22">Media and journalism Course 2023</a>
+              </h4>
+              <p data-i18n="homesubtitle23">
+                Fusce interdum, elit sit amet vehicula malesuada, eros
+                libero elementum orci.
+              </p>
+            </div>
+            <!-- end details -->
+            <div class="course-footer clearfix">
+              <div class="pull-left">
+                <ul class="list-inline">
+                  <li>
+                    <a href="#"><i class="fa fa-user"></i> <span >21</span></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-clock-o"></i> <span data-i18n="homesubtitle25">60 Min.</span></a>
+                  </li>
+                </ul>
+              </div>
+              <!-- end left -->
+
+              <div class="pull-right">
+                <ul class="list-inline">
+                  <li><a href="#" >Free</a></li>
+                </ul>
+              </div>
+              <!-- end left -->
+            </div>
+            <!-- end footer -->
+          </div>
+          <!-- end box -->
+        </div>
+        <!-- end col -->
+
+        <div class="caro-item">
+          <div class="course-box">
+            <div class="image-wrap entry">
+              <img src="static/images/Business-Social-Media-Banner-06.jpg" alt="" class="img-responsive" />
+              <div class="magnifier">
+                <a href="{% url 'contact' %}" title=""></a>
+              </div>
+            </div>
+            <!-- end image-wrap -->
+            <div class="course-details">
+              <h4>
+                <small data-i18n="homesubtitle27">Trade and investment </small>
+                <a href="#" title="" data-i18n="homesubtitle28">Trade and investment Course 2023</a>
+              </h4>
+              <p data-i18n="homesubtitle29">
+                Fusce interdum, elit sit amet vehicula malesuada, eros
+                libero elementum orci.
+              </p>
+            </div>
+            <!-- end details -->
+            <div class="course-footer clearfix">
+              <div class="pull-left">
+                <ul class="list-inline">
+                  <li>
+                    <a href="#"><i class="fa fa-user"></i> <span >21</span></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-clock-o"></i> <span data-i18n="homesubtitle31">60 Min.</span></a>
+                  </li>
+                </ul>
+              </div>
+              <!-- end left -->
+
+              <div class="pull-right">
+                <ul class="list-inline">
+                  <li><a href="#" >Free</a></li>
+                </ul>
+              </div>
+              <!-- end left -->
+            </div>
+            <!-- end footer -->
+          </div>
+          <!-- end box -->
+        </div>
+        <div class="caro-item">
+          <div class="course-box">
+            <div class="image-wrap entry">
+              <img src="static/images/Business-Social-Media-Banner-06.jpg" alt="" class="img-responsive" />
+              <div class="magnifier">
+                <a href="{% url 'contact' %}" title=""></a>
+              </div>
+            </div>
+            <!-- end image-wrap -->
+            <div class="course-details">
+              <h4>
+                <small data-i18n="homesubtitle99">Public governance </small>
+                <a href="#" title="" data-i18n="homesubtitle100">Public governance Course 2023</a>
+              </h4>
+              <p data-i18n="homesubtitle101">
+                Fusce interdum, elit sit amet vehicula malesuada, eros
+                libero elementum orci.
+              </p>
+            </div>
+            <!-- end details -->
+            <div class="course-footer clearfix">
+              <div class="pull-left">
+                <ul class="list-inline">
+                  <li>
+                    <a href="#"><i class="fa fa-user"></i> <span >21</span></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-clock-o"></i> <span data-i18n="homesubtitle102">60 Min.</span></a>
+                  </li>
+                </ul>
+              </div>
+              <!-- end left -->
+
+              <div class="pull-right">
+                <ul class="list-inline">
+                  <li><a href="#" >Free</a></li>
+                </ul>
+              </div>
+              <!-- end left -->
+            </div>
+            <!-- end footer -->
+          </div>
+          <!-- end box -->
+        </div>
+        <!-- end col -->
+      </div>
+      <!-- end row -->
+
+      <hr class="invis" />
+
+      <div class="section-button text-center">
+        <a href="#" class="btn btn-primary" data-i18n="homesubtitle33">View All Courses</a>
+      </div>
+    </div>
+    <!-- end container -->
+  </section>
+
+
+  <section class="section tagline-section p120">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="tagline-message text-center">
+            <h3 data-i18n="homeheading4">
+              Howdy, we are Edulogy, we have brought together the best
+              quality services, offers, projects for you!
+            </h3>
+          </div>
+        </div>
+        <!-- end col -->
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </section>
+  <!-- end section -->
+
+  <section class="section sharing-styling nopadtop">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="box m30">
+            <i class="flaticon-computer-tool-for-education"></i>
+            <h4 data-i18n="homesubtitle34">Learning system</h4>
+            <p data-i18n="homesubtitle35">
+              All sections required for online training are included to
+              Edulogy.
+            </p>
+            <a href="#" class="readmore" data-i18n="homebutton2">Read more</a>
+          </div>
+        </div>
+        <!-- end col -->
+
+        <div class="col-md-6">
+          <div class="box m30">
+            <i class="flaticon-monitor-tablet-and-smartohone"></i>
+            <h4 data-i18n="homesubtitle36">Works all mobile devices</h4>
+            <p data-i18n="homesubtitle37">
+              The most important feature of this template is that it is
+              compatible with all mobile devices. Your customers can also
+              visit your site easily from tablets and phones.
+            </p>
+            <a href="#" class="readmore" data-i18n="homebutton2">Read more</a>
+          </div>
+        </div>
+        <!-- end col -->
+
+        <div class="col-md-3">
+          <div class="box m30">
+            <i class="flaticon-download-business-statistics-symbol-of-a-graphic"></i>
+            <h4 data-i18n="homesubtitle38">User Dashboard</h4>
+            <p data-i18n="homesubtitle39">
+              We designed the design of all the sub-pages needed for the
+              users.
+            </p>
+            <a href="#" class="readmore" data-i18n="homebutton2">Read more</a>
+          </div>
+        </div>
+        <!-- end col -->
+      </div>
+      <!-- end row -->
+
+      <hr class="invis" />
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="box details-box">
+            <i class="flaticon-html5"></i> <i class="flaticon-css-3"></i>
+            <h4 data-i18n="homesubtitle40">Compatible HTML5 & CSS3</h4>
+            <p data-i18n="homesubtitle41">
+              HTML5 is a markup language used for structuring and presenting
+              content on the World Wide Web. It is the fifth and current
+              version of the HTML standard.
+            </p>
+            <a href="#" class="readmore" data-i18n="homebutton2">Read more</a>
+          </div>
+        </div>
+        <!-- end col -->
+
+        <div class="col-md-6">
+          <div class="box">
+            <i class="flaticon-html-coding"></i>
+            <h4 data-i18n="homesubtitle42">Bootstrap Framework</h4>
+            <p data-i18n="homesubtitle43">
+              Bootstrap is a technique of loading a program into a computer
+              by means of a few initial instructions which enable the
+              introduction of the rest of the program from an input device.
+            </p>
+            <a href="#" class="readmore" data-i18n="homebutton2">Read more</a>
+          </div>
+        </div>
+        <!-- end col -->
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </section>
+
+  <section class="section counter">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <p><i class="fa fa-code"></i></p>
+            <div class="counting" data-count="800">0</div>
+            <p data-i18n="homesubtitle44">Projects</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <p><i class="fa fa-user" aria-hidden="true"></i></p>
+            <div class="counting" data-count="780">0</div>
+            <p data-i18n="homesubtitle45">clients</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <p><i class="fa fa-coffee"></i></p>
+            <div class="counting" data-count="680">0</div>
+            <p data-i18n="homesubtitle46">teachers</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <p><i class="fa fa-check"></i></p>
+            <div class="counting" data-count="880">0</div>
+            <p data-i18n="homesubtitle47">quality</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </section>
+  <!-------------testimonial------------------->
+
+  <section class="section testimonial-about-section">
+    <div id="testimonial">
+      <div id="holder">
+        <div id="image">
+          <div class="img client-one"></div>
+          <div class="img client-two"></div>
+      
+        </div>
+
+        <div id="right"></div>
+
+        <div id="text">
+          <div id="centerText">
+            <p class="quote">
+              <i class="fa fa-quote-left" style="font-size: 30px; color: blue"></i>
+              <span data-i18n="testimonial1"> CodePen is a social development environment. At its heart, it
+                allows you to write code in the browser, and see the results
+                of it as you build. A useful and liberating online code editor
+                for developers of any skill, and particularly empowering for</span>
+
+              <i class="fa fa-quote-right" style="font-size: 30px; color: blue"></i>
+            </p>
+            <p class="quote">
+              <i class="fa fa-quote-left" style="font-size: 30px; color: blue"></i>
+              <span data-i18n="testimonial2"> We say social, because CodePen is a community. Most creations
+                on CodePen are public and open source. They are living things
+                that other people and the community can interact with, from a
+                simple hearting, to leaving a comment, to forking and changing
+                for their own needs.</span>
+              <i class="fa fa-quote-right" style="font-size: 30px; color: blue"></i>
+            </p>
+
+          </div>
+
+          <nav>
+            <a id="leftBtn" class="prev"><i class="fa fa-arrow-left"></i></a>
+            <a id="rightBtn" class="next"><i class="fa fa-arrow-right"></i></a>
+          </nav>
+        </div>
+      </div>
+
+      <div id="bg">
+        <div class="overlay"></div>
+        <div class="slide jobs-bg"></div>
+        <div class="slide eljuhany-bg"></div>
+      </div>
+
+      <div id="nav-cirlces">
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+    </div>
+    <!-- end container -->
+  </section>
+
+  <!---------------news--------------------->
+
+  <section class="section recent-news-home sharing-styling">
+    <div class="container">
+      <div class="section-title text-center">
+        <h3 data-i18n="recentNewsHeading">Recent News</h3>
+        <p data-i18n="recentNewspara">
+          Maecenas sit amet tristique turpis. Quisque porttitor eros quis
+          leo pulvinar, at hendrerit sapien iaculis. Donec consectetur
+          accumsan arcu, sit amet fringilla ex ultricies.
+        </p>
+      </div>
+      <!-- end title -->
+
+      <div class="row">
+        <div class="col-lg-4 col-md-12">
+          <div class="blog-box">
+            <div class="image-wrap entry">
+              <img src="static/images/Business-Social-Media-Banner-06.jpg" alt="" class="img-responsive" />
+              <div class="magnifier">
+                <a href="{% url 'contact' %}" title=""></a>
+              </div>
+            </div>
+            <!-- end image-wrap -->
+
+            <div class="blog-desc">
+              <h4>
+                <a href="blog-single.html" data-i18n="recentNewsHeading4">How to learn perfect code with Javascript</a>
+              </h4>
+              <p data-i18n="recentNewspara10">
+                Praesent at suscipit ligula. Suspendisse pre neque, quis
+                suscipit enim. sed maximus, mia auctor.
+              </p>
+            </div>
+            <!-- end blog-desc -->
+
+            <div class="post-meta">
+              <ul class="list-inline">
+                <li><a href="#" data-i18n="recentNewspara11">21 March 2017</a></li>
+                <li><a href="#" data-i18n="recentNewspara12">by WP Destek</a></li>
+                <li><a href="#" data-i18n="recentNewspara13">14 Share</a></li>
+              </ul>
+            </div>
+            <!-- end post-meta -->
+          </div>
+          <!-- end blog -->
+        </div>
+        <!-- end col -->
+
+        <div class="col-lg-4 col-md-12">
+          <div class="blog-box">
+            <div class="image-wrap entry">
+              <img src="static/images/Business-Social-Media-Banner-06.jpg" alt="" class="img-responsive" />
+              <div class="magnifier">
+                <a href="{% url 'contact' %}" title=""></a>
+              </div>
+            </div>
+            <!-- end image-wrap -->
+
+            <div class="blog-desc">
+              <h4>
+                <a href="blog-single.html" data-i18n="recentNewsHeading3">The most suitable web design & development tutorials</a>
+              </h4>
+              <p data-i18n="recentNewspara6">
+                Sed suscipit neque in erat posuere tristique aliquam porta
+                vestibulum. Cras placerat tincidunt.
+              </p>
+            </div>
+            <!-- end blog-desc -->
+
+            <div class="post-meta">
+              <ul class="list-inline">
+                <li><a href="#" data-i18n="recentNewspara7">20 March 2017</a></li>
+                <li><a href="#" data-i18n="recentNewspara8">by WP Destek</a></li>
+                <li><a href="#" data-i18n="recentNewspara9">11 Share</a></li>
+              </ul>
+            </div>
+            <!-- end post-meta -->
+          </div>
+          <!-- end blog -->
+        </div>
+        <!-- end col -->
+
+        <div class="col-lg-4 col-md-12">
+          <div class="blog-box">
+            <div class="image-wrap entry">
+              <img src="static/images/Business-Social-Media-Banner-06.jpg" alt="" class="img-responsive" />
+              <div class="magnifier">
+                <a href="{% url 'contact' %}" title=""></a>
+              </div>
+            </div>
+            <!-- end image-wrap -->
+
+            <div class="blog-desc">
+              <h4>
+                <a href="blog-single.html" data-i18n="recentNewsHeading2">Design for all mobile devices! This is name
+                  "responsive"</a>
+              </h4>
+              <p data-i18n="recentNewspara2">
+                Suspendisse scelerisque ex ac mattis molestie vel enim ut
+                massa placerat faucibus sed ut dui vivamus.
+              </p>
+            </div>
+            <!-- end blog-desc -->
+
+            <div class="post-meta">
+              <ul class="list-inline">
+                <li><a href="#" data-i18n="recentNewspara3">19 March 2017</a></li>
+                <li><a href="#" data-i18n="recentNewspara4">by WP Destek</a></li>
+                <li><a href="#" data-i18n="recentNewspara5">44 Share</a></li>
+              </ul>
+            </div>
+            <!-- end post-meta -->
+          </div>
+          <!-- end blog -->
+        </div>
+        <!-- end col -->
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </section>
+
+  <!----------------upcoming events------------------------>
+  <section class="tp-event__section">
+    <div class="tp-event__shape">
+      <div class="event-1">
+        <img src="static/images/event-line-1.png" alt="" />
+      </div>
+      <div class="event-2">
+        <img src="static/images/event-circle.png" alt="" />
+      </div>
+    </div>
+    <div class="main">
+      <h1 data-i18n="upComingEventsHeading">Upcoming Events</h1>
+      <p class="main-p" data-i18n="upComingEventspara">
+        You can relay on our amazing features list and also our customer
+        services will be great experience for you without doubt.
+      </p>
+      <ul class="cards">
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image">
+              <img src="https://picsum.photos/500/300/?image=10" />
+            </div>
+            <div class="card_content">
+              <div class="tp-event__meta">
+                <span class="event-date"><svg xmlns="http://www.w3.org/2000/svg" height="0.875em"
+                    viewBox="0 0 512 512">
+                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                  </svg>
+              <span data-i18n="upComingEventslist2"> February 13, 2022</span></span>
+                <span class="event-cat"><svg xmlns="http://www.w3.org/2000/svg" height="0.875em"
+                    viewBox="0 0 512 512">
+              
+                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                  </svg>
+                  <span data-i18n="upComingEventslist1">Marketing<span> </span>
+              </div>
+
+              <h2 class="card_title" data-i18n="upComingEventsHeading2">
+                Learn By Doing A Real World Projects.
+              </h2>
+              <p class="card_text">
+                <a href="events.html" class="more-btn" data-i18n="upComingEventslist3">Read More </a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image">
+              <img src="https://picsum.photos/500/300/?image=10" />
+            </div>
+            <div class="card_content">
+              <div class="tp-event__meta">
+                <span class="event-date"><svg xmlns="http://www.w3.org/2000/svg" height="0.875em"
+                    viewBox="0 0 512 512">
+                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                  </svg>
+              <span data-i18n="upComingEventslist5"> February 13, 2022</span></span>
+                <span class="event-cat"><svg xmlns="http://www.w3.org/2000/svg" height="0.875em"
+                    viewBox="0 0 512 512">
+              
+                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                  </svg>
+                  <span data-i18n="upComingEventslist4">Marketing<span> </span>
+              </div>
+
+              <h2 class="card_title" data-i18n="upComingEventsHeading3">
+                Learn By Doing A Real World Projects.
+              </h2>
+              <p class="card_text">
+                <a href="events.html" class="more-btn" data-i18n="upComingEventslist6">Read More </a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image">
+              <img src="https://picsum.photos/500/300/?image=10" />
+            </div>
+            <div class="card_content">
+              <div class="tp-event__meta">
+                <span class="event-date"><svg xmlns="http://www.w3.org/2000/svg" height="0.875em"
+                    viewBox="0 0 512 512">
+                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                  </svg>
+              <span data-i18n="upComingEventslist8"> February 13, 2022</span></span>
+                <span class="event-cat"><svg xmlns="http://www.w3.org/2000/svg" height="0.875em"
+                    viewBox="0 0 512 512">
+              
+                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                  </svg>
+                  <span data-i18n="upComingEventslist7">Marketing<span> </span>
+              </div>
+
+              <h2 class="card_title" data-i18n="upComingEventsHeading4">
+                Learn By Doing A Real World Projects.
+              </h2>
+              <p class="card_text">
+                <a href="events.html" class="more-btn" data-i18n="upComingEventslist9">Read More </a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image">
+              <img src="https://picsum.photos/500/300/?image=10" />
+            </div>
+            <div class="card_content">
+              <div class="tp-event__meta">
+                <span class="event-date"><svg xmlns="http://www.w3.org/2000/svg" height="0.875em"
+                    viewBox="0 0 512 512">
+                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                  </svg>
+              <span data-i18n="upComingEventslist11"> February 13, 2022</span></span>
+                <span class="event-cat"><svg xmlns="http://www.w3.org/2000/svg" height="0.875em"
+                    viewBox="0 0 512 512">
+              
+                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                  </svg>
+                  <span data-i18n="upComingEventslist10">Marketing<span> </span>
+              </div>
+
+              <h2 class="card_title" data-i18n="upComingEventsHeading5">
+                Learn By Doing A Real World Projects.
+              </h2>
+              <p class="card_text">
+                <a href="events.html" class="more-btn" data-i18n="upComingEventslist12">Read More </a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image">
+              <img src="https://picsum.photos/500/300/?image=10" />
+            </div>
+            <div class="card_content">
+              <div class="tp-event__meta">
+                <span class="event-date"><svg xmlns="http://www.w3.org/2000/svg" height="0.875em"
+                    viewBox="0 0 512 512">
+                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                  </svg>
+              <span data-i18n="upComingEventslist14"> February 13, 2022</span></span>
+                <span class="event-cat"><svg xmlns="http://www.w3.org/2000/svg" height="0.875em"
+                    viewBox="0 0 512 512">
+              
+                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                  </svg>
+                  <span data-i18n="upComingEventslist13">Marketing<span> </span>
+              </div>
+
+              <h2 class="card_title" data-i18n="upComingEventsHeading6">
+                Learn By Doing A Real World Projects.
+              </h2>
+              <p class="card_text">
+                <a href="events.html" class="more-btn" data-i18n="upComingEventslist15">Read More </a>
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="cards_item">
+          <div class="card">
+            <div class="card_image">
+              <img src="https://picsum.photos/500/300/?image=10" />
+            </div>
+            <div class="card_content">
+              <div class="tp-event__meta">
+                <span class="event-date"><svg xmlns="http://www.w3.org/2000/svg" height="0.875em"
+                    viewBox="0 0 512 512">
+                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                  </svg>
+              <span data-i18n="upComingEventslist17"> February 13, 2022</span></span>
+                <span class="event-cat"><svg xmlns="http://www.w3.org/2000/svg" height="0.875em"
+                    viewBox="0 0 512 512">
+              
+                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" />
+                  </svg>
+                  <span data-i18n="upComingEventslist16">Marketing<span> </span>
+              </div>
+
+              <h2 class="card_title" data-i18n="upComingEventsHeading7">
+                Learn By Doing A Real World Projects.
+              </h2>
+              <p class="card_text">
+                <a href="events.html" class="more-btn" data-i18n="upComingEventslist18">Read More </a>
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- evant end -->
+  </section>
+
+  <!----------our instructors---------------->
+
+  <section class="teamWrapper">
+    <div class="container">
+      <h1 data-i18n="ourTeamHeading">Our Team</h1>
+      <p data-i18n="ourTeampara">Team leadership training to power high-performance teams</p>
+      <div class="teamGrid">
+        <div class="colmun">
+          <div class="teamcol">
+            <div class="teamcolinner">
+              <div class="avatar">
+                <img
+                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxivAs4UknzmDfLBXGMxQkayiZDhR2ftB4jcIV7LEnIEStiUyMygioZnbLXCAND-I_xWQpVp0jv-dv9NVNbuKn4sNpXYtLIJk2-IOdWQNpC2Ldapnljifu0pnQqAWU848Ja4lT9ugQex-nwECEh3a96GXwiRXlnGEE6FFF_tKm66IGe3fzmLaVIoNL/s1600/img_avatar.png"
+                  alt="Member" />
+              </div>
+              <div class="member-name">
+                <h2 data-i18n="ourTeamHeading1">Mohamed Yousef</h2>
+              </div>
+              <div class="member-info">
+                <p data-i18n="ourTeampara1">
+        I work in the field of marketing with years of experience
+                </p>
+              </div>
+              <div class="member-mail">
+                <p>
+                  <a href="mailto:@gmail.com">mailto:@gmail.com</a>
+                </p>
+              </div>
+              <div class="member-social">
+                <ul class="social-listing">
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="colmun">
+          <div class="teamcol">
+            <div class="teamcolinner">
+              <div class="avatar">
+                <img
+                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxivAs4UknzmDfLBXGMxQkayiZDhR2ftB4jcIV7LEnIEStiUyMygioZnbLXCAND-I_xWQpVp0jv-dv9NVNbuKn4sNpXYtLIJk2-IOdWQNpC2Ldapnljifu0pnQqAWU848Ja4lT9ugQex-nwECEh3a96GXwiRXlnGEE6FFF_tKm66IGe3fzmLaVIoNL/s1600/img_avatar.png"
+                  alt="Member" />
+              </div>
+              <div class="member-name">
+                <h2 data-i18n="ourTeamHeading2">Mohamed Yousef</h2>
+              </div>
+              <div class="member-info">
+                <p data-i18n="ourTeampara2">
+        I work in the field of marketing with years of experience
+                </p>
+              </div>
+              <div class="member-mail">
+                <p>
+                  <a href="mailto:@gmail.com">mailto:@gmail.com</a>
+                </p>
+              </div>
+              <div class="member-social">
+                <ul class="social-listing">
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+{% endblock %}

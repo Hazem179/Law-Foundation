@@ -1,0 +1,300 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <section class="parallax team-members-bg global-section" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container relative">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="tagline-message event-title text-center">
+              <h3 data-i18n="aboutUs">About Us</h3>
+              <ul class="breadcrumb">
+                <ul class="breadcrumb">
+                  <li class="active"><a href="{% url 'home' %}" data-i18n="home">home</a>
+                  </li>
+                  <li data-i18n="aboutUs">about us </li>
+                </ul>
+              </ul>
+            </div>
+          </div><!-- end col -->
+        </div><!-- end row -->
+      </div><!-- end container -->
+    </section><!-- end section -->
+
+
+
+    <!-----------------about us  section-------------------->
+    <section class="about-section ">
+      <div class="container  ">
+        <div class="row">
+          <div class="content-column  col-lg-6 col-md-12 col-sm-12 order-2 ">
+            <div class="inner-column">
+              <div class="sec-title">
+                <h2 data-i18n="homeheading2">Al-Juhany Foundation: We Stand Together, For A Better Society</h2>
+              </div>
+              <div class="text" data-i18n="homepara2">
+                "Al-Juhani Foundation for International Arbitration and Social and Sustainable Development is a
+                non-profit organization that aims to promote social justice and sustainable development in local,
+                regional and international communities. The Foundation was established in 2023 at the initiative of Mr.
+                Ahmed Fouad Al-Juhani, one of the most prominent arbitration experts in the Arab region, and includes in
+                its membership a group of arbitrators, mediators and researchers in the fields of arbitration and
+                development. The Foundation implements projects and programs in areas such as education, health,
+                environment, human rights, economic and cultural empowerment.",
+              </div>
+              <div class="text" data-i18n="homepara3">
+                The Foundation contributes to the resolution of disputes and disputes in peaceful and constructive ways
+                through international arbitration, which is a legal process carried out by a neutral third party who
+                issues a binding decision to the disputing parties. International arbitration is an effective,
+                expeditious and fair means of settling commercial, investment, diplomatic or humanitarian disputes.
+              </div>
+              <div class="btn-box">
+                <a href="{% url 'contact' %}" class="theme-btn btn-style-one" data-i18n="contactUs">Contact Us</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image Column -->
+          <div class="image-column col-lg-6 col-md-12 col-sm-12">
+            <div class="inner-column wow fadeInLeft">
+              <div class="author-desc">
+                <h2 data-i18n="homesubtitle1">Al-Juhany</h2>
+                <span data-i18n="homesubtitle2">Foundation</span>
+              </div>
+              <figure class="image-1">
+                <a href="#" class="lightbox-image" data-fancybox="images"><img title="education"
+                    src="{% static 'images/front-view-male-student-wearing-.jpg' %}" alt="" class="img-responsive" /></a>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!----------------------content details --------------------------------------->
+
+    <section id="about" class="about">
+      <div class="tp-event__shape">
+        <div class="event-1">
+          <img src="{% static 'images/event-line-1.png' %}" alt="" />
+        </div>
+        <div class="event-2">
+          <img src="{% static 'images/event-circle.png' %}" alt="" />
+        </div>
+      </div>
+
+      <div class="container  train-content-Section wow fadeInUp">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content train-content">
+            <h3 data-i18n="trainingContent">Fields of work of the Foundation
+            </h3>
+            <p class="fst-italic" data-i18n="trainingContentpara1">
+              The Foundation implements projects and programs in areas such as education, health, environment, human
+              rights, economic and cultural empowerment. The Foundation also contributes to the resolution of disputes
+              and disagreements in peaceful and constructive ways through international arbitration, which is a legal
+              process carried out by a neutral third party who issues a binding decision to the disputing parties.
+              International arbitration is an effective, expeditious and fair means of settling commercial, investment,
+              diplomatic or humanitarian disputes.
+
+              Fields of work of the Foundation is based on the
+              following factors:
+            </p>
+            <ul>
+              <li>
+                <i class="fa fa-check-circle"></i> <span data-i18n="trainingContentpara2"> Protect and preserve the
+                  environment </span>
+              </li>
+              <li>
+                <i class="fa fa-check-circle"></i> <span data-i18n="trainingContentpara3">Cultural, scientific and
+                  religious services</span>
+              </li>
+              <li>
+                <i class="fa fa-check-circle"></i> <span data-i18n="trainingContentpara4">Care for deaf groups, disabled
+                  and elderly</span>
+              </li>
+            </ul>
+            <p data-i18n="trainingContentpara5">
+              Fields of work of the Foundation can also include orientation, onboarding,
+              internal and outsourced training, technical and managerial
+              skills training and more.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img src="{% static 'images/20190422strada.jpg' %}" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ======= Features Section ======= -->
+    <section id="departments" class="specipage">
+      <div class="specipage">
+        <div class="container specialization-container wow fadeInUp">
+          <div class="tab-content">
+            <div class="tab-pane active show" id="tab-1">
+              <div class="demo">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="main-timeline6">
+                        <div class="timeline">
+                          <div class="timeline-content">
+                            <span class="year">2022</span>
+                            <div class="content-inner">
+                              <span class="icon"><i class="fa fa-globe"></i></span>
+                              <h3 class="title" data-i18n="trainingContent13">Providing Assistance</h3>
+                              <ul class="description">
+                                <li>
+                                  <i class="fa fa-check-circle"></i> <span data-i18n="timelineContent14">Providing financial and in-kind assistance</span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check-circle"></i> <span data-i18n="timelineContent15">The activity of establishing universities, colleges, institutes, schools and nurseries</span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check-circle"></i> <span data-i18n="timelineContent16">Holding training courses in human development and courses on combating illegal immigration and combating electronic crimes </span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check-circle"></i> <span data-i18n="timelineContent17">Establishing offices of Quran memorization and religious, cultural and community awareness </span>
+                                </li>
+                              </ul>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline">
+                          <div class="timeline-content">
+                            <span class="year">2021</span>
+                            <div class="content-inner">
+                              <span class="icon"><i class="fa fa-rocket"></i></span>
+                              <h3 class="title" data-i18n="timelineContent1">Activities
+                              </h3>
+                            
+                                <ul class="description">
+                                  <li>
+                                    <i class="fa fa-check-circle"></i> <span data-i18n="timelineContent2"> Establishing a center for international commercial arbitration and a training academy for dispute settlement and arbitration  </span>
+                                  </li>
+                                  <li>
+                                    <i class="fa fa-check-circle"></i> <span data-i18n="timelineContent3">The activity of establishing universities, colleges, institutes, schools and nurseries</span>
+                                  </li>
+                                  <li>
+                                    <i class="fa fa-check-circle"></i> <span data-i18n="timelineContent4">Holding training courses in human development and courses on combating illegal immigration and combating electronic crimes </span>
+                                  </li>
+                                </ul>
+
+                           
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline">
+                          <div class="timeline-content">
+                            <span class="year">2020</span>
+                            <div class="content-inner">
+                              <span class="icon"><i class="fa fa-briefcase"></i></span>
+                              <h3 class="title"  data-i18n="timelineContent5" >Fields of the Foundation</h3>
+                              <ul class="description">
+                                <li>
+                                  <i class="fa fa-check-circle"></i> <span data-i18n="timelineContent6"> Holding seminars and conferences in raising awareness against human trafficking, exploitation of children and women and transnational international crime </span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check-circle"></i> <span data-i18n="timelineContent7">Economic development, encouraging investment, and direct local and international investment</span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check-circle"></i> <span data-i18n="timelineContent8">Holding training courses in human development and courses on combating illegal immigration and combating electronic crimes </span>
+                                </li>
+                              </ul>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline">
+                          <div class="timeline-content">
+                            <span class="year">2019</span>
+                            <div class="content-inner">
+                              <span class="icon"><i class="fa fa-mobile"></i></span>
+                              <h3 class="title" data-i18n="timelineContent9"> Development Activities
+                              </h3>
+                              <ul class="description">
+                                <li>
+                                  <i class="fa fa-check-circle"></i> <span data-i18n="timelineContent10">Sustainable development activity according to the initiative of the United Nations </span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check-circle"></i> <span data-i18n="timelineContent11">Establishing a training center for the protection of intellectual property rights and holding social, cultural and artistic conferences and seminars</span>
+                                </li>
+                                <li>
+                                  <i class="fa fa-check-circle"></i> <span data-i18n="timelineContent12">Tourism development activity, Hajj and Umrah and cultural and recreational trips </span>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </section><!-- End Features Section -->
+
+    <!-------------testimonial------------------->
+
+    <section class="section testimonial-about-section">
+      <div id="testimonial">
+        <div id="holder">
+          <div id="image">
+            <div class="img client-one"></div>
+            <div class="img client-two"></div>
+        
+          </div>
+
+          <div id="right"></div>
+
+          <div id="text">
+            <div id="centerText">
+              <p class="quote">
+                <i class="fa fa-quote-left" style="font-size: 30px; color: blue"></i>
+                <span data-i18n="testimonial1"> CodePen is a social development environment. At its heart, it
+                  allows you to write code in the browser, and see the results
+                  of it as you build. A useful and liberating online code editor
+                  for developers of any skill, and particularly empowering for</span>
+
+                <i class="fa fa-quote-right" style="font-size: 30px; color: blue"></i>
+              </p>
+              <p class="quote">
+                <i class="fa fa-quote-left" style="font-size: 30px; color: blue"></i>
+                <span data-i18n="testimonial2"> We say social, because CodePen is a community. Most creations
+                  on CodePen are public and open source. They are living things
+                  that other people and the community can interact with, from a
+                  simple hearting, to leaving a comment, to forking and changing
+                  for their own needs.</span>
+                <i class="fa fa-quote-right" style="font-size: 30px; color: blue"></i>
+              </p>
+
+            </div>
+
+            <nav>
+              <a id="leftBtn" class="prev"><i class="fa fa-arrow-left"></i></a>
+              <a id="rightBtn" class="next"><i class="fa fa-arrow-right"></i></a>
+            </nav>
+          </div>
+        </div>
+
+        <div id="bg">
+          <div class="overlay"></div>
+          <div class="slide jobs-bg"></div>
+          <div class="slide eljuhany-bg"></div>
+        </div>
+
+        <div id="nav-cirlces">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+      <!-- end container -->
+    </section>
+{% endblock %}

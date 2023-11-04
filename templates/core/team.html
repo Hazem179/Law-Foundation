@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <section class="parallax team-members-bg global-section" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container relative">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="tagline-message event-title text-center">
+              <h3 data-i18n="ourTeamHeading">Our Team</h3>
+              <ul class="breadcrumb">
+                <li class="active"><a href="index.html" data-i18n="home">home</a>
+                </li>
+                <li data-i18n="Team">team </li>
+              </ul>
+            </div>
+          </div><!-- end col -->
+        </div><!-- end row -->
+      </div><!-- end container -->
+    </section><!-- end section -->
+
+
+
+    <!-----------------team members section-------------------->
+    <section class="team-members" id="team-members">
+      <div class="tp-event__shape">
+        <div class="event-1">
+          <img src="assets/images/event-line-1.png" alt="" />
+        </div>
+        <div class="event-2">
+          <img src="assets/images/event-circle.png" alt="" />
+        </div>
+      </div>
+
+      <h2 class="main-title" data-i18n="ourTeamHeading9">
+        team members
+
+      </h2>
+      <p class="main-p" data-i18n="ourTeampara10">Team leadership training to power high-performance teams</p>
+
+      <div class="container">
+        <div class="box">
+          <div class="data">
+            <img src="{% static 'images/pngtree-graduation-celebration-square-hat-book-background-image_2050926.jpg' %}"
+              alt="" />
+            <div class="social">
+              <a href="#">
+                <i class="fa fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+          <div class="info">
+            <h3 data-i18n="ourTeamHeading1">Mohamed Youssef</h3>
+            <p data-i18n="ourTeampara1">I work in the field of marketing with years of experience</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="data">
+            <img src="{% static 'images/pngtree-graduation-celebration-square-hat-book-background-image_2050926.jpg' %}"
+              alt="" />
+            <div class="social">
+              <a href="#">
+                <i class="fa fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+          <div class="info">
+            <h3 data-i18n="ourTeamHeading2">Mohamed Youssef</h3>
+            <p data-i18n="ourTeampara2">I work in the field of marketing with years of experience</p>
+          </div>
+        </div>
+      </div>
+    </section>
+{% endblock %}

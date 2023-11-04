@@ -1,0 +1,119 @@
+{% load static %}
+<header class="header">
+    <div class="top-nav-home">
+      <div class="container">
+        <div class="row-fluid">
+          <div class="col-md-6 col-sm-6 text-left">
+            <p>
+              <strong><i class="fa fa-phone"></i></strong> +90 543 123 45 67
+              &nbsp;&nbsp; <strong><i class="fa fa-envelope"></i></strong>
+              <a href="mailto:#">info@yoursite.com</a>
+            </p>
+          </div>
+          <!-- end left -->
+          <div class="col-md-6 col-sm-6 hidden-xs text-right">
+            <div class="social">
+              <a class="facebook" href="#" data-tooltip="tooltip" data-placement="bottom" title="Facebook"><i
+                  class="fa fa-facebook"></i></a>
+              <a class="twitter" href="#" data-tooltip="tooltip" data-placement="bottom" title="Twitter"><i
+                  class="fa fa-twitter"></i></a>
+              <a class="google" href="#" data-tooltip="tooltip" data-placement="bottom" title="Google Plus"><i
+                  class="fa fa-google-plus"></i></a>
+              <a class="linkedin" href="#" data-tooltip="tooltip" data-placement="bottom" title="Linkedin"><i
+                  class="fa fa-linkedin"></i></a>
+           
+            </div>
+            <!-- end social -->
+          </div>
+          <!-- end left -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </div>
+    <!-- end topbar -->
+
+    <div class="container">
+      <nav class="navbar navbar-default nav-home">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+            aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="logo-normal">
+            <a class="navbar-brand" href="{% url 'home' %}"><img src="{% static 'images/Asset 7 - Copy.webp' %}" width="180px" height="60px" alt="Al-Juhani-logo" /></a>
+          </div>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="{% url 'home' %}" data-i18n="home">Home</a></li>
+            <li class="dropdown nav-home-fw nav-home-half">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle active" data-i18n="activities">Activities <b
+                  class="fa fa-angle-down"></b></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <div class="nav-home-content">
+                    <div class="row-fluid">
+                      <div class="col-md-6 col-sm-6">
+                        <h4 data-i18n="ourActivities">Our Activities</h4>
+                        <ul>
+                          <li><a href="{% url 'academy' %}" data-i18n="academy">Academy</a></li>
+                          <li><a href="{% url 'university' %}" data-i18n="university">University</a></li>
+
+                        </ul>
+                      </div>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="menu-widget text-center">
+                          <div class="image-wrap entry">
+                            <img src="{% static 'images/illustration-people-doing-different-types-physical-activity.jpg' %}"
+                              alt="" class="img-responsive" />
+                            <div class="magnifier">
+                              <a href="page-contact.html" title=""></a>
+                            </div>
+                          </div>
+                          <!-- end image-wrap -->
+
+                          <a href="page-contact.html" class="menu-button" data-i18n="contactUs">
+                            Contact Us
+                          </a>
+                        </div>
+                        <!-- end widget -->
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li><a href="{% url 'events' %}" data-i18n="events">Events</a></li>
+            <li><a href="{% url 'about' %}" data-i18n="aboutUs">about us</a></li>
+            <li><a href="{% url 'team' %}" data-i18n="team">Team</a></li>
+            <li class="dropdown nav-home-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"
+                data-i18n="blog">Blog
+                <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="{% url 'blog' %}" data-i18n="blogVideo">Blog</a></li>
+                <li><a href="{% url 'activities_blog' %}" data-i18n="blogNews">Blog News</a></li>
+              </ul>
+            </li>
+            <li><a href="{% url 'contact' %}" data-i18n="contact">Contact</a></li>
+            <li class="dropdown nav-home-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"
+                data-i18n="lang"> language
+                <span class="fa fa-angle-down"></span> </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#" id="arabic" data-i18n="arabic">Arabic</a></li>
+                <li><a href="#" id="english">English</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- end navbar -->
+    </div>
+    <!-- end container -->
+  </header>
