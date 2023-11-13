@@ -55,9 +55,9 @@
               <h3 class="widget-title" data-i18n="footerPara5">Explore</h3>
               <div class="list-widget">
                 <ul>
-                  <li><a href="university.html" data-i18n="university">University</a></li>
-                  <li><a href="events.html" data-i18n="events">Events</a></li>
-                  <li><a href="about-us.html" data-i18n="aboutUs">About Us</a></li>
+                  <li><a href="{% url 'university' %}" data-i18n="university">University</a></li>
+                  <li><a href="{% url 'events' %}" data-i18n="events">Events</a></li>
+                  <li><a href="{% url 'about' %}" data-i18n="aboutUs">About Us</a></li>
 
                 </ul>
               </div>
@@ -70,11 +70,11 @@
                 <h3 class="widget-title" data-i18n="EducationFooter">Education</h3>
                 <div class="list-widget">
                   <ul>
-                    <li><a href="page-contact.html" data-i18n="contactUs">Contact Us</a></li>
-                    <li><a href="specialization.html" data-i18n="universityHeading7">Specialization</a></li>
-                    <li><a href="team.html" data-i18n="team">Team</a></li>
-                    <li><a href="blog&news.html" data-i18n="blogNews">Blog & News</a></li>
-                    <li><a href="blog&videos.html" data-i18n="blogVideos1">Blog & Videos</a></li>
+                    <li><a  href="{% url 'contact' %}" data-i18n="contactUs">Contact Us</a></li>
+                    <li><a  href="{% url 'Specialization' %}" data-i18n="universityHeading7">Specialization</a></li>
+                    <li><a href="{% url 'team' %}" data-i18n="team">Team</a></li>
+                    <li><a href="{% url 'activities_blog' %}" data-i18n="blogNews">Blog & News</a></li>
+                    <li><a href="{% url 'blog' %}" data-i18n="blogVideos1">Blog & Videos</a></li>
 
                   </ul>
                 </div>
