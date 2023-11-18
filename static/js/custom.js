@@ -212,9 +212,9 @@ let En = {
   eventpara170: "Hours",
   eventpara171: "Minutes",
   eventpara172: "Seconds",
-  eventpara173: "Tech Masters Event 2021",
+  eventpara173: "The activities of the amended rules listed in the Egyptian Stock Exchange 2023",
   eventpara174:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vero tenetur doloremque iusto ut adipisci quam ratione aliquam excepturi nulla in harum, veritatis porro ",
+    "By Ahmed Fouad Al-Juhani",
     JFGAcademy: "JFG Academy",
   popularCourse: "Popular Courses",
   popularCoursepara:
@@ -517,8 +517,8 @@ let Ar = {
   eventpara170: "الساعات",
   eventpara171: "الدقائق",
   eventpara172: "الثواني",
-  eventpara173: "حدث أساتذة التكنولوجيا 2021",
-  eventpara174: "تعلم من خلال القيام بمشاريع العالم الحقيقي.",
+  eventpara173: "فعاليات قواعد التعديل المقيدة فى البورصه المصريه 2023",
+  eventpara174: "برعاية احمد فؤاد الجهني",
   JFGAcademy: "اكاديميه JFG",
   popularCourse: "الدورات المتشره",
   popularCoursepara: "تعلم من خلال القيام بمشاريع العالم الحقيقي.",
