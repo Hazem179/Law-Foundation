@@ -182,7 +182,7 @@ let En = {
 
   trainingContentpara5:
     "Fields of work of the Foundation can also include orientation, onboarding, internal and outsourced training, technical and managerial skills training and more.",
-  eventheading1: "Edulogy Meetup Event 2018",
+  eventheading1: "The most important seminars and conferences sponsored by Ahmed Al-Juhani",
   eventheading2: "Events",
   eventpara1: "21 - 26 Aug, 2018, San Francisco, CA - Limited number of guests",
   eventpara2: "GET TICKETS",
@@ -495,10 +495,10 @@ let Ar = {
   trainingContentpara19 : "",
   trainingContentpara5:
     "يمكن أن تشمل مجالات عمل المؤسسة أيضًا التوجيه والتأهيل والتدريب الداخلي والخارجي والتدريب على المهارات الفنية والإدارية والمزيد.",
-  eventheading1: "حدث لقاء التعليم 2018",
+  eventheading1: "اهم الندوات والمؤتمرات برعايه احمد الجهني",
   eventheading2: "الاحداث ",
   eventpara1:
-    "21 - 26 أغسطس 2018، سان فرانسيسكو، كاليفورنيا - عدد محدود من الضيوف",
+    "21 - 26 أغسطس  2023،  مصر ، القاهره - عدد محدود من الضيوف",
   eventpara2: "أحصل على تذاكر",
   eventpara3: "اليوم الاول",
   eventpara4: "كلمة التجمع والترحيب",
