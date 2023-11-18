@@ -185,7 +185,6 @@ let En = {
   eventheading1: "The most important seminars and conferences sponsored by Ahmed Al-Juhani",
   eventheading2: "Events",
  eventpara1: "21 - 26 Aug, 2023 , Egypt, Cairo - Limited number of guests",
-  eventpara2: "GET TICKETS",
   eventpara3: "Day 1",
   eventpara4: "Gathering & welcome speech",
   eventpara5:
@@ -498,7 +497,6 @@ let Ar = {
   eventheading2: "الاحداث ",
   eventpara1:
     "21 - 26 أغسطس  2023،  مصر ، القاهره - عدد محدود من الضيوف",
-  eventpara2: "أحصل على تذاكر",
   eventpara3: "اليوم الاول",
   eventpara4: "كلمة التجمع والترحيب",
   eventpara5: "نحن فخورون بكم ونرحب بكم دوما",
