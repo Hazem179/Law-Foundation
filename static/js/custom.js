@@ -113,7 +113,7 @@ let En = {
   testimonial1:
     "Amira Soliman, head of broadcasters at Greater Cairo Radio: The most happy position during my work in the radio is when I communicate with the listeners and they love me and I was presenting youth programs",
   testimonial2:
-    "Egyptian Lawyer Ahmed Fouad Al-Juhani, Lawyer of the Court of Cassation and the Supreme Constitutional and Supreme Administrative Court, Professor of Police and International Relations",
+    "Counselor Ahmed Fouad Al-Juhani, President of the Foundation and Chairman of the Board of Trustees",
 
   recentNewsHeading: "Recent News",
   recentNewspara:
@@ -428,8 +428,7 @@ let Ar = {
   homesubtitle47: "الجوده",
   testimonial1:
     "أميرة سليمان رئيسة المذيعين فى إذاعة القاهرة الكبرى : أكتر موقف سعيد خلال عملي فى الإذاعة هو عندما أتواصل مع المستمعين وكانوا يحبونني وكنت أقدم برامج الشباب ",
-  testimonial2:
-    "المحامي المصري  احمد فؤاد الجهني محامي  محكمة النقض والمحكمة الدستورية العليا والإدارية العليا أستاذ الشرطة والعلاقات الدولية",
+  testimonial2:"المستشار احمد فؤاد الجهني رئيس المؤسسة ورئيس مجلس الامناء",
 
   recentNewsHeading: "الاخبار الحديثه",
   recentNewspara: "نحن نعمل جاهدين لتقديم أحدث الأخبار ومواصلة مشاركة الحادث المعروف.",
