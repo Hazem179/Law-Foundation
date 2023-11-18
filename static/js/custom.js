@@ -198,7 +198,7 @@ let En = {
   eventpara11:
     "Mauris cursus, ipsum eget mollis pretium, nisl felis rhoncus nulla, sed dignissim ligula lorem ac enim. Pellentesque quis libero feugiat, lacinia.",
   eventpara12:
-    "Maecenas sit amet tristique turpis. Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.",
+    "Check out our events ",
   eventpara13: "Free",
   eventpara14: "Mon, APR 09, 7:00 PM",
   eventpara15:
@@ -505,7 +505,7 @@ let Ar = {
   eventpara9: "اليوم الثالث",
   eventpara10: "الجائزة والشهادة",
   eventpara11: "نحن فخورون بكم ونرحب بكم دوما",
-  eventpara12: "نحن فخورون بكم ونرحب بكم دوما",
+  eventpara12: "قم بالاطلاع علي الفعليات الخاصه بنا",
   eventpara13: "مجانا",
   eventpara14: "الإثنين، 09 أبريل، الساعة 7:00 مساءً",
   eventpara15: "تمثيلنا ضمن فعاليات قواعد التعديل المقيدة فى البورصه المصريه وتمهيد لتعديل بعض. الحصول على المعلومات اللازمة  مشاركه المستشار أحمد فؤاد الجهني رئيس مؤسسه الجهنى للمحاماه",
