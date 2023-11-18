@@ -184,7 +184,7 @@ let En = {
     "Fields of work of the Foundation can also include orientation, onboarding, internal and outsourced training, technical and managerial skills training and more.",
   eventheading1: "The most important seminars and conferences sponsored by Ahmed Al-Juhani",
   eventheading2: "Events",
-  eventpara1: "21 - 26 Aug, 2018, San Francisco, CA - Limited number of guests",
+ eventpara1: "21 - 26 Aug, 2023 , Egypt, Cairo - Limited number of guests",
   eventpara2: "GET TICKETS",
   eventpara3: "Day 1",
   eventpara4: "Gathering & welcome speech",
@@ -492,7 +492,6 @@ let Ar = {
   trainingContentpara16 : "ميدان رعاية الطفولة والأمومة",
   trainingContentpara17 : "ميدان المساعدات الاجتماعية",
   trainingContentpara18 : "ميدان الدفاع الاجتماعي",
-  trainingContentpara19 : "",
   trainingContentpara5:
     "يمكن أن تشمل مجالات عمل المؤسسة أيضًا التوجيه والتأهيل والتدريب الداخلي والخارجي والتدريب على المهارات الفنية والإدارية والمزيد.",
   eventheading1: "اهم الندوات والمؤتمرات برعايه احمد الجهني",
