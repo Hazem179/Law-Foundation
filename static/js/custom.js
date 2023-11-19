@@ -192,7 +192,7 @@ let En = {
   eventpara6: "Day 2",
   eventpara7: "Successful Marketing Strategy",
   eventpara8:
-    "Morbi nec ornare ipsum. Curabitur tortor sapien, faucibus commodo metus porta, venenatis lobortis nibh. Proin molestie est et nunc aliquam iaculis.",
+    "Seminars and conferences are organized at the highest level of organization and these objectives include increasing social awareness and increasing social assistance",
   eventpara9: "Day 3",
   eventpara10: "Award and certificate",
   eventpara11:
@@ -501,7 +501,7 @@ let Ar = {
   eventpara5: "يقوم المتحدثون بالترحيب بعضهم البعض من خلال استعراض مشاريعهم وما يعطيهم على تفاعلية المؤتمر.",
   eventpara6: "اليوم التاني",
   eventpara7: "استراتيجية التسويق الناجحة",
-  eventpara8: "نحن فخورون بكم ونرحب بكم دوما",
+  eventpara8: "يتم تنظيم الندوات والمؤتمرات علي اعلي مستوي من التنظيم وتتضمن هذه الاهداف زياده الوعي الاجتماعي وزياده المساعدات الاجتماعيه",
   eventpara9: "اليوم الثالث",
   eventpara10: "الجائزة والشهادة",
   eventpara11: "نحن فخورون بكم ونرحب بكم دوما",
