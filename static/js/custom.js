@@ -162,7 +162,7 @@ let En = {
   trainingContent: "Fields of work of the Foundation",
   Vision : "Vision",
   trainingContentpara1:
-    "JFG University Project is an educational, research and service institution that adopts innovation and qualifies a graduate with knowledge and skills capable of competing in the labor market and community service according to global developments. To become a JFG University project with a global competitive advantage in managing an innovative system in education, research, knowledge and community service.",
+    "JFG University Project is an educational, research and service institution that adopts innovation and qualifies a graduate with knowledge and skills capable of competing in the labor market and community service according to global developments.",
   trainingContentpara2: "Protect and preserve the environment ",
   trainingContentpara3: "Cultural, scientific and religious services",
   trainingContentpara4: "Care for deaf groups, disabled and elderly",
@@ -474,7 +474,7 @@ let Ar = {
   getInTouch: "ابقى على تواصل",
   trainingContent: "مجالات عمل المؤسسة ",
     Vision : "الرؤيه",
-  trainingContentpara1: "مشروع جامعة JFG مؤسسة تعليمية وبحثية وخدمية تتبني الابتكار وتؤهل معرفياٌ ومهارياٌ خريجاٌ قادراٌ على المنافسة في سوق العمل وخدمة المجتمع طبقا للمستجدات العالمية. أن تصبح مشروع  جامعة JFG ذات ميزة تنافسية عالمية في إدارة منظومة ابتكارية في التعليم والبحث والمعرفة وخدمة المجتمع.",
+    trainingContentpara1: "مشروع جامعة JFG مؤسسة تعليمية وبحثية وخدمية تتبني الابتكار وتؤهل معرفياٌ ومهارياٌ خريجاٌ قادراٌ على المنافسة في سوق العمل وخدمة المجتمع طبقا للمستجدات العالمية.",
   trainingContentpara2: "حماية البيئه والمحافظه عليها ",
   trainingContentpara3: "الخدمات الثقافيه والعلميه والدينيه",
   trainingContentpara4: "رعايه الفئات الاصمه والمعوقين والمسنين",
