@@ -188,7 +188,7 @@ let En = {
   eventpara3: "Day 1",
   eventpara4: "Gathering & welcome speech",
   eventpara5:
-    "Ut volutpat elementum venenatis. In id neque nec tellus iaculis semper. Aenean fringilla velit ut leo luctus, blandit aliquet turpis dictum.",
+    "Speakers welcome each other by reviewing their projects and what they give them on the interactive conference.",
   eventpara6: "Day 2",
   eventpara7: "Successful Marketing Strategy",
   eventpara8:
@@ -498,7 +498,7 @@ let Ar = {
   eventpara1: "21 - 26 أغسطس  2023،  مصر ، القاهره ",
   eventpara3: "اليوم الاول",
   eventpara4: "كلمة التجمع والترحيب",
-  eventpara5: "نحن فخورون بكم ونرحب بكم دوما",
+  eventpara5: "يقوم المتحدثون بالترحيب بعضهم البعض من خلال استعراض مشاريعهم وما يعطيهم على تفاعلية المؤتمر.",
   eventpara6: "اليوم التاني",
   eventpara7: "استراتيجية التسويق الناجحة",
   eventpara8: "نحن فخورون بكم ونرحب بكم دوما",
