@@ -163,6 +163,7 @@ let En = {
   Vision : "Vision",
   trainingContentpara1:
     "JFG University Project is an educational, research and service institution that adopts innovation and qualifies a graduate with knowledge and skills capable of competing in the labor market and community service according to global developments.",
+    VisionPara : "To become a JFG University project with a global competitive advantage in managing an innovative system in education, research, knowledge and community service.",
   trainingContentpara2: "Protect and preserve the environment ",
   trainingContentpara3: "Cultural, scientific and religious services",
   trainingContentpara4: "Care for deaf groups, disabled and elderly",
@@ -429,7 +430,7 @@ let Ar = {
   testimonial1:
     "أميرة سليمان رئيسة المذيعين فى إذاعة القاهرة الكبرى : أكتر موقف سعيد خلال عملي فى الإذاعة هو عندما أتواصل مع المستمعين وكانوا يحبونني وكنت أقدم برامج الشباب ",
   testimonial2:"المستشار احمد فؤاد الجهني رئيس المؤسسة ورئيس مجلس الامناء",
-
+  VisionPara : "أن تصبح مشروع  جامعة JFG ذات ميزة تنافسية عالمية في إدارة منظومة ابتكارية في التعليم والبحث والمعرفة وخدمة المجتمع.",
   recentNewsHeading: "الاخبار الحديثه",
   recentNewspara: "نحن نعمل جاهدين لتقديم أحدث الأخبار ومواصلة مشاركة الحادث المعروف.",
   recentNewsHeading2: "الرئيس عبد الفتاح السيسي يتلقى اتصالا هاتفيا من المستشار الألماني أولاف شولتس",
