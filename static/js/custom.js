@@ -160,8 +160,9 @@ let En = {
   Send: "Send",
   getInTouch: "Get In Touch",
   trainingContent: "Fields of work of the Foundation",
+  Vision : "Vision",
   trainingContentpara1:
-    "The Foundation implements projects and programs in areas such as education, health, environment, human rights, economic and cultural empowerment. The Foundation also contributes to the resolution of disputes and disagreements in peaceful and constructive ways through international arbitration, which is a legal process carried out by a neutral third party who issues a binding decision to the disputing parties. Fields of work of the Foundation is based on the following factors:",
+    "JFG University Project is an educational, research and service institution that adopts innovation and qualifies a graduate with knowledge and skills capable of competing in the labor market and community service according to global developments. To become a JFG University project with a global competitive advantage in managing an innovative system in education, research, knowledge and community service.",
   trainingContentpara2: "Protect and preserve the environment ",
   trainingContentpara3: "Cultural, scientific and religious services",
   trainingContentpara4: "Care for deaf groups, disabled and elderly",
@@ -472,8 +473,7 @@ let Ar = {
   Send: "ارسال",
   getInTouch: "ابقى على تواصل",
   trainingContent: "مجالات عمل المؤسسة ",
-  trainingContentpara1:
-    "تنفذ المؤسسة مشاريع وبرامج في مجالات مثل التعليم والصحة والبيئة وحقوق الإنسان والتمكين الاقتصادي والثقافي. كما تساهم المؤسسة في حل النزاعات والخلافات بطرق سلمية وبناءة من خلال التحكيم الدولي، وهي عملية قانونية يقوم بها طرف ثالث محايد يصدر قرارا ملزما للأطراف المتنازعة. تعتمد مجالات عمل المؤسسة على العوامل التالية:",
+  trainingContentpara1: "مشروع جامعة JFG مؤسسة تعليمية وبحثية وخدمية تتبني الابتكار وتؤهل معرفياٌ ومهارياٌ خريجاٌ قادراٌ على المنافسة في سوق العمل وخدمة المجتمع طبقا للمستجدات العالمية. أن تصبح مشروع  جامعة JFG ذات ميزة تنافسية عالمية في إدارة منظومة ابتكارية في التعليم والبحث والمعرفة وخدمة المجتمع.",
   trainingContentpara2: "حماية البيئه والمحافظه عليها ",
   trainingContentpara3: "الخدمات الثقافيه والعلميه والدينيه",
   trainingContentpara4: "رعايه الفئات الاصمه والمعوقين والمسنين",
