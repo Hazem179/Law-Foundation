@@ -196,7 +196,7 @@ let En = {
   eventpara9: "Day 3",
   eventpara10: "Award and certificate",
   eventpara11:
-    "Mauris cursus, ipsum eget mollis pretium, nisl felis rhoncus nulla, sed dignissim ligula lorem ac enim. Pellentesque quis libero feugiat, lacinia.",
+    "Free certificates are offered to participants, and free programs are provided by conferences ",
   eventpara12:
     "Check out our events ",
   eventpara13: "Free",
