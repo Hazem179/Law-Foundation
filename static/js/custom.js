@@ -192,7 +192,7 @@ let En = {
   eventpara6: "Day 2",
   eventpara7: "Successful Marketing Strategy",
   eventpara8:
-    "Seminars and conferences are organized at the highest level of organization and these objectives include increasing social awareness ",
+    "conferences are organized at the highest level of organization and these objectives include increasing social awareness ",
   eventpara9: "Day 3",
   eventpara10: "Award and certificate",
   eventpara11:
