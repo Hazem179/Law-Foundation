@@ -26,12 +26,13 @@
         <div class="container">
           <div class="boxed boxedp4">
             <div class="row blog-grid content-1 contents">
+              {% for post in posts %}
               <div class="col-lg-4">
                 <div class="course-box">
                   <div class="image-wrap entry">
-                    <img src="assets/images/5c2a49b0-b2c8-45ea-8689-7739fb2fa832.webp" class="block-20" />
+                    <img src="{% static background_img_link.url %}" class="block-20" />
                     <a
-                      href="https://www.youtube.com/watch?v=vjyay38sQS4"
+                      href="{{ post.link }}"
                       class="img-video popup-vimeo"
                     >
                       <div class="meta text-center">
@@ -44,10 +45,10 @@
                     <h4>
            
                       <a
-                      href="https://www.youtube.com/watch?v=vjyay38sQS4"
+                      href="{{ post.link }}"
                         title="Ahmed Fouad Al-Juhani, founder of Al-Juhani foundation for international arbitration and social and sustainable development"
                         data-i18n="blogVideos3"
-                        >Ahmed Fouad Al-Juhani, founder of Al-Juhani foundation for international arbitration and social and sustainable development</a
+                        >{{ post.title }}</a
                       >
                     </h4>
            
@@ -82,6 +83,7 @@
                 </div>
                 <!-- end box -->
               </div>
+              {% endfor %}
               <!-- end col -->
             </div>
 

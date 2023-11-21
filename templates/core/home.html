@@ -78,10 +78,11 @@
       <!-- end title -->
 
       <div id="owl-01" class="owl-carousel owl-theme owl-theme-01" dir="ltr">
+        {% for course in top_courses %}
         <div class="caro-item">
           <div class="course-box">
             <div class="image-wrap entry">
-              <img src="{% static 'images/5.webp' %}"  alt="" class="img-responsive" />
+              <img src="{% static course.image.url %}"  alt="" class="img-responsive" />
               <div class="magnifier">
                 <a href="{% url 'academy' %}" title=""></a>
               </div>
@@ -89,12 +90,11 @@
             <!-- end image-wrap -->
             <div class="course-details">
               <h4>
-                <small data-i18n="homesubtitle3">International Commercial Arbitration</small>
-                <a href="#" title="" data-i18n="homesubtitle4">International Commercial Arbitration Course 2023</a>
+                <small >{{ course.short_name }}</small>
+                <a href="#" title="" >{{ course.name }}</a>
               </h4>
-              <p data-i18n="homesubtitle5">
-                  A specialized training course in international trade disputes, where this training course aims to explain the basic concepts and internal and external rules governing international commercial arbitration 
-
+              <p >
+                {{course.description }}
               </p>
             </div>
             <!-- end details -->
@@ -105,7 +105,7 @@
                     <a href="#"><i class="fa fa-user"></i> <span>21</span></a>
                   </li>
                   <li>
-                    <a href="#"><i class="fa fa-clock-o"></i> <span data-i18n="homesubtitle7"> 60 Min.</span></a>
+                    <a href="#"><i class="fa fa-clock-o"></i> <span> 60 Min.</span></a>
                   </li>
                 </ul>
               </div>
@@ -113,7 +113,7 @@
 
               <div class="pull-right">
                 <ul class="list-inline">
-                  <li><a href="#">Free</a></li>
+                  <li><a href="#">{{course.price }}</a></li>
                 </ul>
               </div>
               <!-- end left -->
@@ -122,234 +122,8 @@
           </div>
           <!-- end box -->
         </div>
-        <!-- end col -->
+        {% endfor %}
 
-        <div class="caro-item">
-          <div class="course-box">
-            <div class="image-wrap entry">
-              <img src="{% static 'images/6.webp' %}" alt="" class="img-responsive" />
-              <div class="magnifier">
-                <a href="{% url 'academy' %}" title=""></a>
-              </div>
-            </div>
-            <!-- end image-wrap -->
-            <div class="course-details">
-              <h4>
-                <small data-i18n="homesubtitle9">Communications organization</small>
-                <a href="#" data-i18n="homesubtitle10" title="">Communications organization Course 2023</a>
-              </h4>
-              <p data-i18n="homesubtitle11">
-                  In this course, you will learn about the history of the development of networks, the main concepts and functions that form the basis of class structures, basic concepts in digital communication
-
-              </p>
-            </div>
-            <!-- end details -->
-            <div class="course-footer clearfix">
-              <div class="pull-left">
-                <ul class="list-inline">
-                  <li>
-                    <a href="#"><i class="fa fa-user"></i> <span >21</span></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-clock-o"></i> <span data-i18n="homesubtitle13">60 Min.</span></a>
-                  </li>
-                </ul>
-              </div>
-              <!-- end left -->
-
-              <div class="pull-right">
-                <ul class="list-inline">
-                  <li><a href="#" >Free</a></li>
-                </ul>
-              </div>
-              <!-- end left -->
-            </div>
-            <!-- end footer -->
-          </div>
-          <!-- end box -->
-        </div>
-        <!-- end col -->
-
-        <div class="caro-item">
-          <div class="course-box">
-            <div class="image-wrap entry">
-              <img src="{% static 'images/4.webp' %}" alt="" class="img-responsive" />
-              <div class="magnifier">
-                <a href="{% url 'academy' %}" title=""></a>
-              </div>
-            </div>
-            <!-- end image-wrap -->
-            <div class="course-details">
-              <h4>
-                <small data-i18n="homesubtitle15">Human resources management </small>
-                <a href="#" title="" data-i18n="homesubtitle16">Human resources management Course 2023</a>
-              </h4>
-              <p data-i18n="homesubtitle17">
-                  An integrated training diploma that helps participants gain practical and academic experience qualified to work in the field of human resources management help people to work in Jobs
-
-              </p>
-            </div>
-            <!-- end details -->
-            <div class="course-footer clearfix">
-              <div class="pull-left">
-                <ul class="list-inline">
-                  <li>
-                    <a href="#"><i class="fa fa-user"></i> <span >21</span></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-clock-o"></i> <span data-i18n="homesubtitle19">60 Min.</span></a>
-                  </li>
-                </ul>
-              </div>
-              <!-- end left -->
-
-              <div class="pull-right">
-                <ul class="list-inline">
-                  <li><a href="#" >Free</a></li>
-                </ul>
-              </div>
-              <!-- end left -->
-            </div>
-            <!-- end footer -->
-          </div>
-          <!-- end box -->
-        </div>
-        <!-- end col -->
-
-        <div class="caro-item">
-          <div class="course-box">
-            <div class="image-wrap entry">
-              <img src="{% static 'images/3.webp' %}"  alt="" class="img-responsive" />
-              <div class="magnifier">
-                <a href="{% url 'academy' %}" title=""></a>
-              </div>
-            </div>
-            <!-- end image-wrap -->
-            <div class="course-details">
-              <h4>
-                <small data-i18n="homesubtitle21">Media and journalism </small>
-                <a href="#" title="" data-i18n="homesubtitle22">Media and journalism Course 2023</a>
-              </h4>
-              <p data-i18n="homesubtitle23">
-                  it is a specialized training program in the field of media and communication, which aims to provide participants with the skills and knowledge necessary to work in various media, whether print, visual or audio.
-
-              </p>
-            </div>
-            <!-- end details -->
-            <div class="course-footer clearfix">
-              <div class="pull-left">
-                <ul class="list-inline">
-                  <li>
-                    <a href="#"><i class="fa fa-user"></i> <span >21</span></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-clock-o"></i> <span data-i18n="homesubtitle25">60 Min.</span></a>
-                  </li>
-                </ul>
-              </div>
-              <!-- end left -->
-
-              <div class="pull-right">
-                <ul class="list-inline">
-                  <li><a href="#" >Free</a></li>
-                </ul>
-              </div>
-              <!-- end left -->
-            </div>
-            <!-- end footer -->
-          </div>
-          <!-- end box -->
-        </div>
-        <!-- end col -->
-
-        <div class="caro-item">
-          <div class="course-box">
-            <div class="image-wrap entry">
-              <img src="{% static 'images/1.webp' %}"  alt="" class="img-responsive" />
-              <div class="magnifier">
-                <a href="{% url 'academy' %}" title=""></a>
-              </div>
-            </div>
-            <!-- end image-wrap -->
-            <div class="course-details">
-              <h4>
-                <small data-i18n="homesubtitle27">Trade and investment </small>
-                <a href="#" title="" data-i18n="homesubtitle28">Trade and investment Course 2023</a>
-              </h4>
-              <p data-i18n="homesubtitle29">
-                  Recognize the relationship between the economy and the stock market and know the beginning of the expected economic or commercial cycles 
-
-              </p>
-            </div>
-            <!-- end details -->
-            <div class="course-footer clearfix">
-              <div class="pull-left">
-                <ul class="list-inline">
-                  <li>
-                    <a href="#"><i class="fa fa-user"></i> <span >21</span></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-clock-o"></i> <span data-i18n="homesubtitle31">60 Min.</span></a>
-                  </li>
-                </ul>
-              </div>
-              <!-- end left -->
-
-              <div class="pull-right">
-                <ul class="list-inline">
-                  <li><a href="#" >Free</a></li>
-                </ul>
-              </div>
-              <!-- end left -->
-            </div>
-            <!-- end footer -->
-          </div>
-          <!-- end box -->
-        </div>
-        <div class="caro-item">
-          <div class="course-box">
-            <div class="image-wrap entry">
-              <img   src="{% static 'images/Public-governance-course.webp' %}" alt="" class="img-responsive" />
-              <div class="magnifier">
-                <a href="{% url 'academy' %}" title=""></a>
-              </div>
-            </div>
-            <!-- end image-wrap -->
-            <div class="course-details">
-              <h4>
-                <small data-i18n="homesubtitle99">Public governance </small>
-                <a href="#" title="" data-i18n="homesubtitle100">Public governance Course 2023</a>
-              </h4>
-              <p data-i18n="homesubtitle101">
-                  It aims to introduce participants to the governance of joint stock companies, where they identify the regulatory and financial mechanisms
-
-              </p>
-            </div>
-            <!-- end details -->
-            <div class="course-footer clearfix">
-              <div class="pull-left">
-                <ul class="list-inline">
-                  <li>
-                    <a href="#"><i class="fa fa-user"></i> <span >21</span></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-clock-o"></i> <span data-i18n="homesubtitle102">60 Min.</span></a>
-                  </li>
-                </ul>
-              </div>
-              <!-- end left -->
-
-              <div class="pull-right">
-                <ul class="list-inline">
-                  <li><a href="#" >Free</a></li>
-                </ul>
-              </div>
-              <!-- end left -->
-            </div>
-            <!-- end footer -->
-          </div>
-          <!-- end box -->
-        </div>
         <!-- end col -->
       </div>
       <!-- end row -->
@@ -558,29 +332,28 @@
       <!-- end title -->
 
       <div class="row">
+        {% for news in top_news %}
         <div class="col-lg-4 col-md-12">
           <div class="blog-box">
             <div class="image-wrap entry">
-            <img src="https://images.skynewsarabia.com/images/v1/2023/11/07/1668232/400/300/1-1668232.jpg" alt="مؤسسه الجهني" class="img-responsive" />
+            <img src="{{ news.image }}" alt="مؤسسه الجهني" class="img-responsive" />
               <div class="magnifier">
-                <a href="{% url 'activities_blog' %}" title=""></a>
+                <a href="{{news.link}}" title=""></a>
               </div>
             </div>
-            <!-- end image-wrap -->
-
             <div class="blog-desc">
               <h4>
-                <a  href="{% url 'activities_blog' %}"  data-i18n="recentNewsHeading4"> Newspaper: Why did Turkey's foreign minister refuse to hug Blinken? </a>
+                <a  href="{{news.link}}"> {{ news.title }} </a>
               </h4>
-              <p data-i18n="recentNewspara10">
-                 Turkish Foreign Minister Hakan Fidan refused to hug visiting US counterpart Antony Blinken on Monday, a Turkish newspaper revealed in an issue that may be described as going beyond diplomatic norm.
+              <p>
+                {{ news.body }}
               </p>
             </div>
             <!-- end blog-desc -->
 
             <div class="post-meta">
               <ul class="list-inline">
-                  <li><a href="#" data-i18n="recentNewspara11">21 March 2023</a></li>
+                  <li><a href="#" >{{ news.added_date }}</a></li>
                   <li><a href="#" data-i18n="recentNewspara12">by el juhany</a></li>
                   <li><a href="#" data-i18n="recentNewspara13">14 Share</a></li>
               </ul>
@@ -590,71 +363,8 @@
           <!-- end blog -->
         </div>
         <!-- end col -->
+        {% endfor %}
 
-        <div class="col-lg-4 col-md-12">
-          <div class="blog-box">
-            <div class="image-wrap entry">
-               <img src="https://images.akhbarelyom.com/images/images/large/20231109165317931.jpg" alt="" class="img-responsive" />
-              <div class="magnifier">
-                <a href="{% url 'activities_blog' %}" title=""></a>
-              </div>
-            </div>
-            <!-- end image-wrap -->
-
-            <div class="blog-desc">
-              <h4>
-                <a  href="{% url 'activities_blog' %}" data-i18n="recentNewsHeading3">Prime Minister reviews study on transformation towards technologies</a>
-              </h4>
-              <p data-i18n="recentNewspara6">
-                  Prime Minister Dr. Mostafa Madbouly held a meeting this evening with officials of the International Consulting Office Ernst & Young to review the features of a study prepared by the Office of Ernst & Young  to operate transport by the latest means.
-              </p>
-            </div>
-            <!-- end blog-desc -->
-
-            <div class="post-meta">
-              <ul class="list-inline">
-                  <li><a href="#" data-i18n="recentNewspara7">20 March 2023</a></li>
-                  <li><a href="#" data-i18n="recentNewspara8">by el juhany</a></li>
-                  <li><a href="#" data-i18n="recentNewspara9">11 Share</a></li>
-              </ul>
-            </div>
-            <!-- end post-meta -->
-          </div>
-          <!-- end blog -->
-        </div>
-        <!-- end col -->
-
-        <div class="col-lg-4 col-md-12">
-          <div class="blog-box">
-            <div class="image-wrap entry">
-            <img src="https://images.akhbarelyom.com/images/images/large/20231109173625671.jpg" alt="مؤسسه الجهني" class="img-responsive" />
-              <div class="magnifier">
-                <a href="{% url 'activities_blog' %}" title=""></a>
-              </div>
-            </div>
-            <!-- end image-wrap -->
-
-            <div class="blog-desc">
-              <h4>
-                <a  href="{% url 'activities_blog' %}" data-i18n="recentNewsHeading2">President El-Sisi Receives Phone Call from German Chancellor Olaf Scholz</a>
-              </h4>
-              <p data-i18n="recentNewspara2">
-               Counselor Ahmed Fahmy, Spokesman for the Egyptian Presidency, stated that the call dealt with following up on the latest developments in the Gaza Strip, where the President reviewed Egypt's tireless efforts to push for a ceasefire to protect civilians. 
-              </p>
-            </div>
-            <!-- end blog-desc -->
-
-            <div class="post-meta">
-              <ul class="list-inline">
-                  <li><a href="#" data-i18n="recentNewspara3">19 March 2023</a></li>
-                  <li><a href="#" data-i18n="recentNewspara4">by el juhany</a></li>
-                  <li><a href="#" data-i18n="recentNewspara5">44 Share</a></li>
-              </ul>
-            </div>
-            <!-- end post-meta -->
-          </div>
-          <!-- end blog -->
-        </div>
         <!-- end col -->
       </div>
       <!-- end row -->
@@ -781,7 +491,6 @@
                     <li>
                       <a href="https://www.facebook.com/amira.soliman.58323/"><i class="fa fa-facebook"></i></a>
                     </li>
-
                   </ul>
                 </div>
               </div>

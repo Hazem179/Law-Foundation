@@ -23,13 +23,14 @@
             <div class="container blogNews-styling">
                 <div class="boxed boxedp4">
                     <div class="row">
-                         <div class="col-md-8">
+                <div class="col-md-8">
                 <div class="row blog-grid content-1 contents">
+                  {% for news in all_news %}
                   <div class="col-lg-6">
                     <div class="course-box">
                       <div class="image-wrap entry">
                         <img
-                          src="https://images.akhbarelyom.com/images/images/large/20231109165317931.jpg"
+                          src="{{news.image}}"
                           alt="Prime Minister reviews study on shift towards clean fuel technologies and its economic feasibility"
                           class="img-responsive"
                         />
@@ -39,16 +40,13 @@
                         <h4>
                           <small data-i18n="blogNews1">news</small>
                           <a
-                            href="#"
+                            href="{{ news.link }}"
                             title="Prime Minister reviews study on shift towards clean fuel technologies and its economic feasibility"
-                            data-i18n="blogNews2"
-                            >Prime Minister reviews study on shift towards clean fuel technologies and its economic feasibility</a
+                            >{{ news.title }}</a
                           >
                         </h4>
-                        <p data-i18n="blogNews3">
-                          Prime Minister Dr. Mostafa Madbouly held a meeting this evening with officials of the International Advisory Office Ernst & Young to review the main features of a study prepared by the Ernst & Young office on the possibility of adopting different alternatives to operate transportation with modern technology purifications such as the use of lithium batteries and hydrogen fuel cells
-
-
+                        <p>
+                          {{ news.body }}
                         </p>
                       </div>
                       <!-- end details -->
@@ -64,7 +62,7 @@
                             <li>
                               <a href="#"
                                 ><i class="fa fa-clock-o"></i
-                                ><span data-i18n="blogNews5">14 Jun</span></a
+                                ><span >{{ news.added_date }}</span></a
                               >
                             </li>
                             <li>
@@ -81,92 +79,29 @@
                     </div>
                     <!-- end box -->
                   </div>
-                  <!-- end col -->
-
-                  <div class="col-lg-6">
-                    <div class="course-box">
-                      <div class="image-wrap entry">
-                        <img
-                          src="https://images.akhbarelyom.com/images/images/large/20231109173625671.jpg"
-                          alt="مؤسسه الجهني"
-                          class="img-responsive"
-                        />
-                      </div>
-                      <!-- end image-wrap -->
-                      <div class="course-details">
-                        <h4>
-                          <small data-i18n="blogNews30">news</small>
-                          <a
-                            href="#"
-                            title="President El-Sisi Receives Phone Call from German Chancellor Olaf Scholz"
-                            data-i18n="blogNews31"
-                            >President El-Sisi Receives Phone Call from German Chancellor Olaf Scholz
-                            </a
-                          >
-                        </h4>
-                        <p data-i18n="blogNews32">
-                          The Spokesman for the Egyptian Presidency, Counselor Ahmed Fahmy, stated that the call dealt with following up on the latest developments in the Gaza Strip, where the President reviewed Egypt's tireless efforts to push for a ceasefire to protect civilians, in light of the deteriorating humanitarian situation in the Gaza Strip, in addition to Egypt's efforts to provide and deliver aid to the people of Gaza
-                        </p>
-                      </div>
-                      <!-- end details -->
-                      <div class="course-footer clearfix">
-                        <div class="pull-left">
-                          <ul class="list-inline">
-                            <li>
-                              <a href="#"
-                                ><i class="fa fa-user"></i>
-                                <span data-i18n="blogNews33">#news</span></a
-                              >
-                            </li>
-                            <li>
-                              <a href="#"
-                                ><i class="fa fa-clock-o"></i
-                                ><span data-i18n="blogNews34">14 Jun</span></a
-                              >
-                            </li>
-                            <li>
-                              <a href="#"
-                                ><i class="fa fa-eye"></i>
-                                <span data-i18n="blogNews35">455 Views</span></a
-                              >
-                            </li>
-                          </ul>
-                        </div>
-                        <!-- end left -->
-                      </div>
-                      <!-- end footer -->
-                    </div>
-                    <!-- end box -->
-                  </div>
-                  <!-- end col -->
-
+                  {% endfor %}
                 </div>
                 <!-- end row -->
 
                 <hr class="invis" />
-
                 <div class="row">
                   <div class="col-md-12">
                     <ul class="pagination">
                       <li class="active button-pagination" data-num="1">
                         <a>1</a>
                       </li>
-                      <!-- <li class="button-pagination" data-num="2"><a>2</a></li>
-                                        <li class="button-pagination" data-num="3"><a>3</a></li>
-                                        <li class="button-pagination" data-num="4"><a>4</a></li>
-                                        <li class="button-pagination" data-num="5"><a>5</a></li> -->
                     </ul>
                   </div>
                         <!-- end col -->
                          </div>
-                            </div>
+                  </div>
                               <!-- end col -->
                             
                         <div class="sidebar col-md-4">
                            <div class="widget clearfix">
                   <div class="banner-widget">
                     <img
-                      src="assets/images/20190422strada.jpg"
+                      src="{% static 'images/20190422strada.jpg' %}"
                       alt="مؤسسه الجهني"
                       class="img-responsive img-rounded"
                     />

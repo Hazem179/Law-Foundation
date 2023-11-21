@@ -1,11 +1,20 @@
+from multiprocessing import context
 from django.shortcuts import render
+from .models import Blog, Course, News,Event
 
 # Create your views here.
 def home(request):
-    return render(request,'core/home.html')
+    top_courses = Course.objects.all()[:4]
+    top_news = News.objects.all()[:3]
+    next_event = Event.objects.all()[:1]
+    team = Event.objects.all()[:3]
+    context = {'top_courses':top_courses,'top_news':top_news,'next_event':next_event,'team':team, 'titele':'الرئيسية'}
+    return render(request,'core/home.html',context=context)
 
 def academy(request):
-    return render(request,'core/academy.html')
+    courses = Course.objects.all()
+    context = {'courses':courses,'title':'الأكاديمية'}
+    return render(request,'core/academy.html',context=context)
 
 
 def university(request):
@@ -25,11 +34,15 @@ def team(request):
 
 
 def blog(request):
-    return render(request,'core/blog-3.html')
+    posts = Blog.objects.all()
+    context = {'posts':posts,'title':'المدونة'}
+    return render(request,'core/blog-3.html',context=context)
 
 
 def activities_blog(request):
-    return render(request,'core/blog-2.html')
+    all_news = News.objects.all()
+    context={'all_news':all_news,'title':'المدونة والأخبار'}
+    return render(request,'core/blog-2.html',context=context)
 
 
 def contact(request):
