@@ -1,9 +1,3 @@
-from email.mime import image
-from enum import auto
-from pydoc import describe
-from pyexpat import model
-from tabnanny import verbose
-from turtle import title
 from django.db import models
 
 # Create your models here.
@@ -45,9 +39,9 @@ class Event(models.Model):
 
 class News(models.Model):
     title = models.CharField(max_length=100,verbose_name = "العنوان")
-    link = models.URLField(verbose_name = "اللينك")
+    link = models.URLField(verbose_name = "اللينك",blank =True,null = True)
     body = models.TextField(verbose_name = "تفاصيل الخبر")
-    image  = models.URLField(verbose_name = "لينك صورة الخبر")
+    image  = models.URLField(verbose_name = "لينك صورة الخبر",blank =True,null = True)
     added_date = models.DateField(auto_now_add=True,verbose_name = "تاريخ الاضافة")
     class Meta:
         ordering = ['-id']
